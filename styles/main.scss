@@ -1,0 +1,55 @@
+@import 'bourbon/bourbon';
+$visual-grid: true;
+$visual-grid-color: #333;
+$visual-grid-size: 1000px;
+@import 'neat/neat'
+
+
+$torea-bay: #18339E;
+$primary-color: $torea-bay;
+$cadet-blue: #B2B8C3;
+$secondary-color: $cadet-blue;
+
+
+$font-family: 'Merriweather', serif;
+$headline-font: $
+$font-family: 'Abril Fatface', cursive;
+
+
+.body {
+  background-color: $secondary-color;
+  max-width: 1900px;
+
+}
+
+.background {
+  display: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.data {
+  @include outer-container(1200px);
+  padding-top:10%;
+  $secondary-font;
+  $secondary-color;
+  @include span-columns (12)
+}
+
+.state {
+
+}
+
+
+.city {}
+
+
+.location {}
+
+
+.type {}
+
+
+.height {}
