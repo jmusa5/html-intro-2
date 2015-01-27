@@ -19,11 +19,15 @@ html {
     content: "";
     display: table; }
 
+ul {
+  list-style: none; }
+
 .data {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
+  border-style: border-box;
   padding-top: 10%;
   display: center center;
   background-repeat: no-repeat;
@@ -32,18 +36,15 @@ html {
   .data:last-child {
     margin-right: 0; }
 
+.area {
+  max-width: 400px; }
+
+.gender {
+  margin-left: 60px; }
+
 /* .state {
 
 } */
-.city {
-  max-width: 5px 20px;
-  margin-left: auto;
-  margin-right: auto; }
-  .city::after {
-    clear: both;
-    content: "";
-    display: table; }
-
 /* .location {} */
 /* .type {} */
 /* .height {} */

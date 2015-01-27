@@ -23,8 +23,13 @@ $font-family: 'Abril Fatface', cursive;
 
 }
 
+ul {
+  list-style: none;
+}
+
 .data {
   @include span-columns (12);
+  border-style: border-box;
   padding-top: 10%;
   display: center center;
   background-repeat: no-repeat;
@@ -33,15 +38,18 @@ $font-family: 'Abril Fatface', cursive;
 
 }
 
+.area {
+  max-width: 400px;
+}
+
+.gender {
+  margin-left: 60px;
+}
+
 
 /* .state {
 
 } */
-
-
-.city {
-  @include outer-container(5px 20px)
-}
 
 
 /* .location {} */
