@@ -1,42 +1,51 @@
-/*
-Error: Invalid CSS after "...ort 'neat/neat'": expected selector or at-rule, was "$torea-bay: #18..."
-        on line 8 of styles/main.scss
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-3: $visual-grid-color: #333;
-4: $visual-grid-size: 1000px;
-5: @import 'neat/neat'
-6: 
-7: 
-8: $torea-bay: #18339E;
-9: $primary-color: $torea-bay;
-10: $cadet-blue: #B2B8C3;
-11: $secondary-color: $cadet-blue;
-12: 
-13: 
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
 
-Backtrace:
-styles/main.scss:8
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:1101:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/scss/parser.rb:43:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:393:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:293:in `watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/plugin.rb:108:in `method_missing'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:370:in `watch_or_update'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:50:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
-/usr/bin/sass:23:in `load'
-/usr/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...ort 'neat/neat'\": expected selector or at-rule, was \"$torea-bay: #18...\"\A         on line 8 of styles/main.scss\A \A 3: $visual-grid-color: #333;\A 4: $visual-grid-size: 1000px;\A 5: @import 'neat/neat'\A 6: \A 7: \A 8: $torea-bay: #18339E;\A 9: $primary-color: $torea-bay;\A 10: $cadet-blue: #B2B8C3;\A 11: $secondary-color: $cadet-blue;\A 12: \A 13: "; }
+.body {
+  max-width: 1200px 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #b2b8c3;
+  max-width: 1900px; }
+  .body::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.data {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding-top: 10%;
+  display: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #B2C2DA; }
+  .data:last-child {
+    margin-right: 0; }
+
+/* .state {
+
+} */
+.city {
+  max-width: 5px 20px;
+  margin-left: auto;
+  margin-right: auto; }
+  .city::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/* .location {} */
+/* .type {} */
+/* .height {} */
+
+/*# sourceMappingURL=main.css.map */

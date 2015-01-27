@@ -1,55 +1,53 @@
-@import "bourbon/bourbon";
-$visual-grid: true;
+@import 'bourbon/bourbon';
+$visual-grid: false;
 $visual-grid-color: #333;
 $visual-grid-size: 1000px;
-@import "neat/neat"
+@import 'neat/neat';
 
 
-$torea-bay: #18339E;
+$torea-bay: #18339e;
 $primary-color: $torea-bay;
-$cadet-blue: #B2B8C3;
+$cadet-blue: #b2b8c3;
 $secondary-color: $cadet-blue;
 
 
 $font-family: 'Merriweather', serif;
-$headline-font: $
 $font-family: 'Abril Fatface', cursive;
 
 
+
 .body {
+  @include outer-container (1200px 800px);
   background-color: $secondary-color;
   max-width: 1900px;
 
 }
 
-.background {
+.data {
+  @include span-columns (12);
+  padding-top: 10%;
   display: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #B2C2DA;
 
 }
 
 
-.data {
-  @include outer-container(1200px);
-  padding-top:10%;
-  $secondary-font;
-  $secondary-color;
-  @include span-columns (12)
-}
+/* .state {
 
-.state {
+} */
 
+
+.city {
+  @include outer-container(5px 20px)
 }
 
 
-.city {}
+/* .location {} */
 
 
-.location {}
+/* .type {} */
 
 
-.type {}
-
-
-.height {}
+/* .height {} */
